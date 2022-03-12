@@ -2,6 +2,7 @@ import {ReactComponent as Arrow } from 'assets/img/arrow.svg';
 import { MoviePage } from 'types/movies';
 import './styles.css';
 
+
 type Props ={
     page: MoviePage
     onChange: Function;
