@@ -27,7 +27,7 @@ function Listing() {
                 const data = response.data as MoviePage;
                 setPage(data)
             });
-    }, []);
+    }, [pageNumber]);
 
     return (
         <>
